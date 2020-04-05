@@ -1,0 +1,146 @@
+/**font-family: 'Playfair Display', serif;**/
+/**font-family: 'Ubuntu', sans-serif;**/
+/**font-family: 'Inconsolata', monospace;**/
+body{
+	margin-bottom: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+/**header start**/
+header{
+	padding: 20px 0;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.logo{
+	width: 15%;
+	float: left;
+	margin-top: 4px;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 60%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-size: 16px;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	border-bottom: 1px solid white;
+	margin: 0 60px;
+	padding: 5px 0;
+	transition: .5s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: #000000;
+	border-bottom: 1px solid #626262;
+}
+/**header end**/
+/**banner start**/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/**banner end**/
+/**about start**/
+.about{
+	padding: 50px 0;
+}
+.wrapper2{
+	overflow: hidden;
+	width: 80%;
+	margin: 0 auto;
+}
+.a_content{}
+.light{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.head{
+	font-weight: 400;
+	font-size: 30px;
+}
+.text{
+	line-height: 25px;
+    letter-spacing: 2px;
+    word-spacing: 12px;
+    margin-bottom: 45px;
+}
+/**about end**/
+/**single item start**/
+.single{
+	width: 42%;
+    float: left;
+    padding: 55px 60px;
+}
+.blog{}
+.blog_img{}
+.blog_img img{
+	width: 100%;
+}
+.blog_text{}
+.blog_text h2{
+	font-weight: 400;
+	font-size: 30px;
+}
+/**single item end**/
+/**contact start**/
+.contact{
+	background-color: #F0F0F0;
+	padding: 70px 0;
+    margin-bottom: 50px;
+}
+.wrapper3{
+	width: 20%;
+	margin: 0 auto;
+}
+.c_text{}
+.c_text h3{
+	font-weight: 400;
+    font-size: 30px;
+}
+footer{
+	background-color: #F0F0F0;
+}
+.f_menu{}
+.f_menu ul{}
+.f_menu ul li{
+	list-style: none;
+	float: left;
+}
+.f_menu ul li a{
+	font-size: 16px;
+	color: #626262;
+	text-decoration: none;
+	display: inline-block;
+	border-bottom: 1px solid white;
+	transition: .5s;
+	padding: 30px 20px;
+}
+.f_menu ul li a:hover{
+	color: #000000;
+	border-bottom: 1px solid #626262;
+}
+/**contact end**/
